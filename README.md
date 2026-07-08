@@ -1,6 +1,6 @@
 # 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
 
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./screen-capture%20(13).webm)
+[![3D portfolio preview ](./Screenshot 2026-07-08 at 2.55.13 PM)]
 
 A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
 
@@ -35,8 +35,8 @@ If you’re a developer looking for a **portfolio template** that feels premium,
 ### 1) Clone
 
 ```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/RishiSoni252004/portfolio.git
+cd portfolio
 ```
 
 ### 2) Install
@@ -82,7 +82,7 @@ If you found this useful:
 
 ## 🤝 Connect
 
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
+- LinkedIn: https://www.linkedin.com/in/rishi-soni-66a1a6289/
 
 ---
 
