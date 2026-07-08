@@ -94,7 +94,4 @@ Add these topics to improve GitHub search visibility:
 
 ---
 
-## 🪪 License
-
-This project is open source and available under the **MIT License**. See [LICENSE](LICENSE).
 # portfolio
