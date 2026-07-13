@@ -57,7 +57,7 @@ export const config = {
             title: "AI E-Commerce Recommendation System",
             category: "AI / ML",
             technologies: "Python, PySpark, Apache Kafka, Delta Lake, MLflow, FastAPI, Docker, Kubernetes",
-            image: "/images/project1.png",
+            image: "/images/project-1.webp",
             description: "Real-Time Collaborative Filtering Engine. Engineered a production-grade recommendation engine using collaborative filtering with SVD and NMF matrix factorization."
         },
         {
@@ -65,7 +65,7 @@ export const config = {
             title: "AI Research Scientist Agent",
             category: "AI / LLM",
             technologies: "Python, LangGraph, LangChain, OpenAI, FastAPI, Docker",
-            image: "/images/project2.png",
+            image: "/images/project-2.webp",
             description: "Autonomous Multi-Agent Research Assistant capable of literature review, paper summarization, hypothesis generation, and research planning."
         },
         {
@@ -73,7 +73,7 @@ export const config = {
             title: "Static Application Security Testing (SAST)",
             category: "Security",
             technologies: "Python, FastAPI, AST Parsing, Docker, GitHub",
-            image: "/images/project4.png",
+            image: "/images/project-4.webp",
             description: "AI Powered Code Security Scanner for detecting security vulnerabilities, insecure coding practices, and code quality issues."
         },
         {
