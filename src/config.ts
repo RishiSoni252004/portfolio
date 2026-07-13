@@ -46,6 +46,14 @@ export const config = {
     projects: [
         {
             id: 1,
+            title: "Multimodal Parkinson's Disease Detection",
+            category: "AI / Healthcare",
+            technologies: "Python, PyTorch, ResNet-18, Wav2Vec 2.0, Scikit-learn, XGBoost, SHAP, Streamlit",
+            image: "/images/parkinson.png",
+            description: "Clinical AI Diagnostic System combining voice analysis and spiral drawing image classification to predict Parkinson's disease with 91.2% prediction confidence."
+        },
+        {
+            id: 2,
             title: "AI E-Commerce Recommendation System",
             category: "AI / ML",
             technologies: "Python, PySpark, Apache Kafka, Delta Lake, MLflow, FastAPI, Docker, Kubernetes",
@@ -53,20 +61,12 @@ export const config = {
             description: "Real-Time Collaborative Filtering Engine. Engineered a production-grade recommendation engine using collaborative filtering with SVD and NMF matrix factorization."
         },
         {
-            id: 2,
+            id: 3,
             title: "AI Research Scientist Agent",
             category: "AI / LLM",
             technologies: "Python, LangGraph, LangChain, OpenAI, FastAPI, Docker",
             image: "/images/project2.png",
             description: "Autonomous Multi-Agent Research Assistant capable of literature review, paper summarization, hypothesis generation, and research planning."
-        },
-        {
-            id: 3,
-            title: "Multimodal Parkinson's Disease Detection",
-            category: "AI / Healthcare",
-            technologies: "Python, PyTorch, ResNet-18, Wav2Vec 2.0, Scikit-learn, XGBoost, SHAP, Streamlit",
-            image: "/images/project3.png",
-            description: "Clinical AI Diagnostic System combining voice analysis and spiral drawing image classification to predict Parkinson's disease with 91.2% prediction confidence."
         },
         {
             id: 4,
@@ -81,7 +81,7 @@ export const config = {
             title: "AI Mock Interview Platform",
             category: "AI / Web",
             technologies: "Python, FastAPI, React, OpenAI, Speech Recognition",
-            image: "/images/project5.png",
+            image: "/images/prepwise.png",
             description: "Intelligent Interview Preparation System capable of generating technical interview questions and evaluating candidate responses with realistic simulations."
         },
         {
@@ -112,7 +112,7 @@ export const config = {
     contact: {
         email: "rishisoni2504@gmail.com",
         github: "https://github.com/RishiSoni252004",
-        linkedin: "https://linkedin.com/in/rishi-soni",
+        linkedin: "https://www.linkedin.com/in/rishi-soni-66a1a6289/",
         twitter: "",
         facebook: "",
         instagram: ""

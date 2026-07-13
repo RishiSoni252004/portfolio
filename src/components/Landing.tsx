@@ -1,4 +1,4 @@
-import { PropsWithChildren } from "react";
+import { PropsWithChildren, useState, useEffect } from "react";
 import "./styles/Landing.css";
 import { config } from "../config";
 
@@ -6,6 +6,21 @@ const Landing = ({ children }: PropsWithChildren) => {
   const nameParts = config.developer.fullName.split(" ");
   const firstName = nameParts[0] || config.developer.name;
   const lastName = nameParts.slice(1).join(" ") || "";
+
+  const [isFlipped, setIsFlipped] = useState(false);
+  const [isFading, setIsFading] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsFading(true);
+      setTimeout(() => {
+        setIsFlipped((prev) => !prev);
+        setIsFading(false);
+      }, 500);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
@@ -22,11 +37,15 @@ const Landing = ({ children }: PropsWithChildren) => {
           </div>
           <div className="landing-info">
             <h3>An</h3>
-            <h2 className="landing-info-h2">
-              <div className="landing-h2-1">AI Engineer</div>
+            <h2 className={`landing-info-h2 ${isFading ? 'text-fade-out' : 'text-fade-in'}`}>
+              <div className="landing-h2-1">
+                {isFlipped ? "Full-Stack Dev." : "AI Engineer"}
+              </div>
             </h2>
-            <h2>
-              <div className="landing-h2-info">Full-Stack Developer</div>
+            <h2 className={`landing-h2-front ${isFading ? 'text-fade-out' : 'text-fade-in'}`}>
+              <div className="landing-h2-info">
+                {isFlipped ? "AI Engineer" : "Full-Stack Dev."}
+              </div>
             </h2>
           </div>
           {/* Mobile photo - shows only on mobile when 3D character is hidden */}
