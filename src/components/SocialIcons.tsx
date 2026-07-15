@@ -82,9 +82,9 @@ const SocialIcons = () => {
         </span>
       </div>
       <a className="resume-button" href="#">
-        <HoverLinks text="RESUME" />
+        <HoverLinks text="↑" />
         <span>
-          <TbNotes />
+          {/* <TbNotes /> */}
         </span>
       </a>
     </div>

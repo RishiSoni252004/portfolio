@@ -508,6 +508,19 @@ h2.landing-info-h2 {
     right: auto;
     left: 66%;
   }
+
+  .landing-info h3 {
+    font-size: 2.2vw;
+  }
+
+  .landing-info h2 {
+    font-size: 3.8vw;
+    line-height: 1.1;
+  }
+
+  h2.landing-info-h2 {
+    font-size: 4.5vw;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -527,6 +540,19 @@ h2.landing-info-h2 {
     right: auto;
     left: 70%;
   }
+
+  .landing-info h3 {
+    font-size: 2vw;
+  }
+
+  .landing-info h2 {
+    font-size: 3.5vw;
+    line-height: 1.1;
+  }
+
+  h2.landing-info-h2 {
+    font-size: 4vw;
+  }
 }
 
 @media screen and (min-width: 1600px) {
@@ -540,16 +566,16 @@ h2.landing-info-h2 {
   }
 
   .landing-info h3 {
-    font-size: 35px;
+    font-size: 1.8vw;
   }
 
   .landing-info h2 {
-    font-size: 65px;
-    line-height: 62px;
+    font-size: 3.2vw;
+    line-height: 1.1;
   }
 
   h2.landing-info-h2 {
-    font-size: 75px;
+    font-size: 3.8vw;
   }
 }
 

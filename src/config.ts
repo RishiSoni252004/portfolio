@@ -113,9 +113,9 @@ export const config = {
         email: "rishisoni2504@gmail.com",
         github: "https://github.com/RishiSoni252004",
         linkedin: "https://www.linkedin.com/in/rishi-soni-66a1a6289/",
-        twitter: "",
-        facebook: "",
-        instagram: ""
+        twitter: "https://x.com/RishiSo61338897",
+        facebook: "https://www.facebook.com/rishi.soni.2504/",
+        instagram: "https://www.instagram.com/rishi_soni_25/"
     },
     skills: {
         develop: {
